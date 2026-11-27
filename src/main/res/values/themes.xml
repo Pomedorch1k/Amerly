@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Amerly"
+           parent="android:Theme.Material.Light.NoActionBar"/>
+
+    <style name="Theme.Amerly.Starting"
+           parent="Theme.SplashScreen">
+
+        <item name="windowSplashScreenBackground">
+            @color/amerly_splash_background
+        </item>
+
+        <item name="windowSplashScreenAnimatedIcon">
+            @drawable/amerly_splash_mark
+        </item>
+
+        <item name="postSplashScreenTheme">
+            @style/Theme.Amerly
+        </item>
+
+    </style>
+
+</resources>
